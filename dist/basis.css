@@ -1,0 +1,81 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+header
+{
+  width: 100%;
+  height: 90px;
+  border-bottom: solid #333 1px;
+  display: flex;
+}
+#titel{}
+#titel h1{margin: 20px;}
+#logo{}
+#logo img { height: 50px; width: 50px; margin: 20px;}
+
+#container
+{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+
+}
+#links
+{
+  border-right: solid #333 1px;
+  width: 5%;
+  height: 100%;
+}
+#midden
+{
+  align-self: center;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+#app
+{
+  align-self: center;
+  height: 500px;
+  width: 85%;
+  border: solid #333 2px;
+  border-radius: 5px;
+}
+#omschrijfing
+{
+  margin: 20px;
+  align-self: center;
+}
+#rechts
+{
+  width: 5%;
+  height: 100%;
+  border-left: solid #333 1px;
+}
+
+
+footer
+{
+  border-top: solid #333 1px;
+  width: 100%;
+  height: 100%;
+}
+footer ul
+{
+  color: #333;
+  list-style: none;
+}
+footer h4
+{
+  color: #333;
+  margin-left: 30px;
+}
+#contact
+{
+  margin:20px;
+}
